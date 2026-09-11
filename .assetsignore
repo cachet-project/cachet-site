@@ -1,0 +1,11 @@
+# 配信しないもの。assets.directory を "." にしているため、
+# ここに書かないとリポジトリの中身がそのまま公開される。
+# 実際に .git/config が誰でも読める状態だった（2026-09-12 に geonews-site で
+# 同じ事故が起き、横並びで確認して発覚）。
+.git
+.git/**
+.gitignore
+.assetsignore
+wrangler.jsonc
+.wrangler
+README.md
